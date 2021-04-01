@@ -2,22 +2,31 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="_css/estilo.css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Relógio</title>
-        
+    <title>Document</title>
 </head>
 <body>
-    <div>
-        Vai aparecer aqui
-    </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <center><div id="horas"><h3>00:00</h3></div></center>
+    
+    <script type="text/javascript">
+              //escreva o código da aula aqui     
+       function apresentaHoras(){
+           var agora = new Date();
+           var horas = agora.getHours();
+           var minutos = agora.getMinutes();
+           var segundos = agora.getSeconds();
+
+           var horario = horas + ":" + minutos + ":" + segundos;
+
+           document.getElementById('horas').innerHTML = horario;
+
+       }
+       setInterval(apresentaHoras, 1000);
+    </script>
+
+
 </body>
-<script>
-    function relogio() {
-        var data = new date();
-         var hr = data.getHours;
-         var min = data.getMinutes;
-         var s = data.getSecondes;
-        }
-</script>
 </html>
