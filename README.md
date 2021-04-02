@@ -1,2 +1,2 @@
-# exercicio_javascript
+# exercício_CSS
 
