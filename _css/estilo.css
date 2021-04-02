@@ -23,13 +23,13 @@ a
     overflow: hidden;
     transition: 0.2s;
 }
-/*a:hover
+a:hover
  {
-    color: #0112ff;
+    color: #255784;
     background: #2196f3;
-    box-shadow:  0 0 10px #2196f3, 0 0 80px #2196f3, 0 0 0 10px #2196f3;
-    
-}*/
+    box-shadow:  0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+    transition-delay: 1s;
+}
 a span
 {
     position: absolute;
@@ -62,6 +62,33 @@ a:hover span:nth-child(3) {
     right: 100%;
     transition: 1s;
     transition-delay: 0.3s;
+}
+a span:nth-child(2) {
+    top: -100;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg,transparent,#2196f3);
+
+}
+a:hover span:nth-child(2) {
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+a span:nth-child(4) {
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg,transparent,#2196f3);
+
+}
+a:hover span:nth-child(4) {
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.60s;
+}
 
 
 
