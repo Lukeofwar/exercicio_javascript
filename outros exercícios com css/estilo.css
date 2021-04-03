@@ -11,6 +11,7 @@ section
 video
 {
     object-fit: cover;
+
 }
 
 h1
@@ -32,7 +33,7 @@ h1 span
 {
     opacity: 0;
     display: inline-block;
-    animation: animate 2s linear forwards;
+    animation: animate 1s linear forwards;
 }
 @keyframes animate
 {
@@ -49,4 +50,16 @@ h1 span
         filter: blur(0px);
      } 
 }
+h1 span:nth-child(1) {
+    animation-delay: .35s;
+}h1 span:nth-child(2) {
+    animation-delay: .45s;
+}h1 span:nth-child(3) {
+    animation-delay: .55s;
+}h1 span:nth-child(4) {
+    animation-delay: .65s;
+}h1 span:nth-child(5) {
+    animation-delay: .75s;
+}h1 span:nth-child(6) {
+   animation-delay: .85s;
 
