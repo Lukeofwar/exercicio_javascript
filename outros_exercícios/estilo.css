@@ -72,3 +72,11 @@ animation-delay: calc(0.1s * var(--i));
     }
 
 }
+    div#implemento
+{
+    position: static;
+    top: 10px;
+    left: 50px;
+    color: rgb(0, 17, 255);
+   
+}
